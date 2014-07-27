@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+
+    <script src = "scripts/controllers/exercisesController.js"></script>
+    <script src = "scripts/data/exercisesData.js"></script>
+    <script src="scripts/services/SPAServices.js"></script>
+    <script src = "scripts/settings.js"></script>
+
+
+
+    <title>Workout Generator</title>
+</head>
+<body>
+
+<script>
+    $(function () {
+        exerciseController.getExercise(1);
+    })
+</script>
+
+<div id="content"></div>
+
+</body>
+</html>

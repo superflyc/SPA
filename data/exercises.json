@@ -1,0 +1,76 @@
+{
+    "exercises":
+        [
+            {   "id" : 1,
+                "name" : "pushups",
+                "reps": 20,
+                "sets": 5,
+                "description" : "From a prone position, place your hands by your shoulders and push yourself up, keeping your back straight."
+            },
+
+            {
+                "id": 2,
+                "name" : "pullups",
+                "reps": 10,
+                "sets": 3,
+                "description" : "Hang from the bar with your hands slightly wider than your shoulders, palms facing away from you. Pull yourself up."
+            },
+            {
+                "id": 3,
+                "name" : "squats",
+                "reps": 20,
+                "sets": 5,
+                "description" : "Keeping your feet wider than your hips and toes pointing slightly outward, squat down, keeping your back straight and your weight over your heels."
+            },
+            {
+                "id": 4,
+                "name" : "crunches",
+                "reps": 30,
+                "sets": 4,
+                "description" : "From a supine position, bring your heels flat on the ground towards your hips. Clasp your hands behind your head and touch your elbows to your knees."
+            },
+            {
+                "id": 5,
+                "name" : "mountain climbers",
+                "reps": 20,
+                "sets": 5,
+                "description" : "From a high plank position, bring your right knee to your right elbow, then repeat on the left side. Each pair counts as one rep."
+            },
+            {
+                "id": 6,
+                "name" : "burpees",
+                "reps": 10,
+                "sets": 5,
+                "description" : "From a standing position, drop down to the ground in to a squat, then shoot your legs out behind you to a high plank position. Do a pushup and reverse the movement, jumping up into the air and clapping your hands once over your head."
+            },
+            {
+                "id": 7,
+                "name" : "butterfly kicks",
+                "reps": 30,
+                "sets": 4,
+                "description" : "From a supine position, place your hands under your hips and raise your legs slightly off the ground. Without touching the ground, kick one leg slightly up, then repeat with the other. Each pair is one rep."
+            },
+            {
+                "id": 8,
+                "name" : "jumping jacks",
+                "reps": 50,
+                "sets": 4,
+                "description" : "From a standing position, jump up, bringing your feet more than hip width apart and your arms over head. Jump back to your starting position."
+            },
+            {
+                "id": 9,
+                "name" : "high knees",
+                "reps": 50,
+                "sets": 4,
+                "description" : "From a standing position, run in place, bringing each knee to your waist. Each pair counts as one rep."
+            },
+            {
+                "id": 10,
+                "name" : "lunges",
+                "reps": 20,
+                "sets": 4,
+                "description" : "From a standing position, step one leg forward, keeping your knee behind your toe, and bring the other knee to the ground. Repeat on the other side for a single rep."
+            }
+
+        ]
+}
