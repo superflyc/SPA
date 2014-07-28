@@ -2,7 +2,7 @@
 
 var exerciseController = {
 
-    getExercise: function (theExerciseID) {
+    getExercise: function (theExerciseID, theView, theDiv) {
 
         exerciseData.getExerciseData()
             .done(function (theData) {
@@ -11,14 +11,16 @@ var exerciseController = {
                     return (anExercise.id === theExerciseID);
                 });
 
-                SPAService.render(filteredExercise, "exerciseDetail.html", "#content");
+                SPAService.render(filteredExercise, theView , theDiv);
 
             })
             .fail(function (jqXHR, status, error) {
                 console.log(status + "-" + error);
             });
 
-    },
+    }
+
+
 
 
 };
