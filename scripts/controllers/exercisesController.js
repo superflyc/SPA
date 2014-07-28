@@ -18,6 +18,19 @@ var exerciseController = {
                 console.log(status + "-" + error);
             });
 
+    },
+
+    showExercises: function(theDiv) {
+
+        $(theDiv).dataTable( {
+            "ajax": spa.dataPath,
+            "columns": [
+                { "exercises": "name" },
+                { "exercises": "reps" },
+                { "exercises": "sets" }
+            ]
+        } );
+
     }
 
 
